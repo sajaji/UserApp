@@ -3,7 +3,7 @@
 # Instructions
 
 
-## Download the zipped assingment from Gitgub
+## Download the zipped assingment from Github
 link: [https://github.com/sajaji/UserApp]
 
 # Server:
