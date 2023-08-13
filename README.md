@@ -4,16 +4,16 @@
 
 
 ## Download the zipped assingment from Gitgub
-link: []
+link: [https://github.com/sajaji/UserApp]
 
 # Server:
-### cd server
-### npm run dev
+1. ### cd server
+2. ### npm run dev
 
 # client:
-### cd client
-### npm install
-### npm start
+3. ### cd client
+4. ### npm install
+5. ### npm start
 
 ** Note: please add your MongoDB URL to 'server/index.js' file.
 
