@@ -57,7 +57,7 @@ app.delete("/delete/:id", async(req, res)=>{
     res.send({success: true, message: "Data Deleted", data: data})
 })
 
-
+//MongoDB URL
 mongoose.connect("mongodb+srv://userDB:xpij0NCjeDytjs9K@cluster0.xbxtdid.mongodb.net/?retryWrites=true&w=majority")
 .then(()=>{
     console.log("Connect to DB")
