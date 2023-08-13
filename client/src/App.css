@@ -1,0 +1,118 @@
+/* Form */
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #f5f6ff;
+}
+
+.container{
+  padding: 10px;
+  max-width: fit-content;
+  margin: 50px auto;
+}
+
+.btn{
+  border: none;
+  padding: 7px 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-add{
+  background: #194064;
+  color: white;
+}
+
+.add-container{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-container form{
+  width: 420px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 30px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px; 
+}
+.add-container form label{
+  font-size: 18px;
+
+}
+.add-container form input{
+  font-size: 18px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.add-container form button{
+  background-color: #194064;
+  color: white;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.add-container form .close-btn{
+  margin-left: auto;
+  font-size: 20px;
+  color: #194064;
+  width: 22px;
+  height: 22px;
+  /* background-color: brown; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid #194064;
+  cursor: pointer;
+}
+
+
+/* Table */
+
+.TableContainer{
+  margin-top: 20px;
+}
+.TableContainer table{
+  /*border: 1px solid #c9c9c9;*/
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.TableContainer table thead tr{
+  background-color:  #5f9cd8;
+}
+.TableContainer table thead tr th,
+.TableContainer table tbody tr td{
+  min-width: 200px;
+  padding: 6px;
+  text-align: center;
+}
+.TableContainer table tbody tr td{
+  border-bottom: 1px solid #c9c9c9;
+}
+
+
+.btn-Edit{
+  font-size: 15px;
+  padding: 5px 10px;
+  margin: 0px 10px;
+  background-color: #194064;
+  color: white;
+}
+.btn-Delete{
+  font-size: 15px;
+  padding: 5px 10px;
+  margin: 0px 10px;
+  background-color: rgb(133, 13, 13);
+  color: white;
+}
